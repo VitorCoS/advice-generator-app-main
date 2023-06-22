@@ -1,0 +1,90 @@
+@import url(./variables.css);
+
+body{
+    background-color: #202632;
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #CEE3E8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+}
+
+
+.main_container{
+     background-color: #313A49;
+     border-radius: 15px;
+     width: 700px;
+     height: 425px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     padding: 50px 20px;
+     align-items: center;
+     text-align: center;
+     position: relative;
+     font-weight:600;
+     box-shadow: 6px 6px 20px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+div h1{
+    color: var(--Neon-Green);
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.3em;
+ 
+}
+
+div p{
+  font-size: 28px;
+}
+
+  
+#divider{
+    width: 90%;
+}
+
+#icon_button{
+    position: absolute;
+    background-color: var(--Neon-Green);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    bottom: -35px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+#icon_button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px 2px var(--Neon-Green);
+  }
+
+#icon_button:active {
+    transform: translateY(1px);
+
+}
+
+
+#icon_img{
+    width: 40%;
+}
+  
+ 
+  
+@media screen and (max-width: 770px){
+    .main_container{
+        width: 100%;
+    }
+  
+
+}
+    
